@@ -8,7 +8,13 @@ public class Main {
         System.out.println("Print success ...");
     }
 
+
+    void printError(){
+        System.out.println("Testing Error");
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Error ...");
+        System.out.println("Hello world!");
     }
 }
